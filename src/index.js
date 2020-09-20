@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.css';
 import * as serviceWorker from './serviceWorker';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core';
+import Footer from './components/Footer';
+import Tabs from './components/Tabs'
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#424242'
+    },
+    secondary: {
+      main: '#7132FF'
+    }
+  }
+})
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <Tabs />
+      <Footer />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

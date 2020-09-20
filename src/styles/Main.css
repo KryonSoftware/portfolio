@@ -1,0 +1,261 @@
+.backtotop {
+  height: 0px!important;
+  min-height: 0px!important;
+}
+
+.box {
+  padding-top: 25px!important;
+}
+
+.todo {
+  margin-top: -25px;
+  padding-top: 0px;
+  background-color: #fAfAfA;
+}
+
+.saludo {
+  margin-top: 100px;
+}
+.bienv {
+  color: rgba(219, 219, 219, 0.933);
+}
+.bienv2 {
+  color: rgba(173, 173, 173, 0.933);
+}
+.black-font {
+  color: rgba(44, 44, 44, 0.933);
+}
+
+.icono {
+  margin-left: -20px!important;
+}
+
+.iconop {
+  margin-left: -10px!important;
+}
+
+.iconos {
+  margin-left: -18px!important;
+}
+
+.trabajo-viejo {
+  height: 40px;
+  width: 40px;
+  margin-left: -20px;
+}
+
+.marco {
+  float:right;
+  padding: 25px;
+  margin-bottom: 50px;
+  border-radius: 6px;
+  background-color: #7132FF;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4)
+}
+.marco-p {
+  float:right;
+  padding: 25px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  border-radius: 100px;
+  background-color: #7132FF;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4)
+}
+.foto {
+  border-radius: 6px;
+  display: block;
+  width: 450px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4)
+}
+
+.portrait {
+  border-radius: 100px;
+  display: block;
+  width: 150px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4);
+  background-color: #fAfAfA;
+}
+
+.vertical-timeline::before{content:'';position:absolute;top:0;left:18px;height:100%;width:4px;background:#7132FF!important}
+
+.content {
+  margin:0 auto, 0 auto;
+  padding: 100px;
+  padding-right: 20%;
+  padding-left: 20%;
+  background-color:#424242;
+  padding-bottom: 200px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+}
+
+.content-white {
+  margin:0 auto, 0 auto;
+  padding: 16px;
+  padding-right: 20%;
+  padding-left: 20%;
+  background-color: transparent;
+  color:black;
+  padding-bottom: 300px;
+  padding-top: 300px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+}
+
+.final {
+  height: 200px;
+  margin-bottom: -140px;
+}
+
+.closetop {
+  margin-top: -101px;
+  margin-bottom: -141px;
+}
+
+.content-grey {
+  padding: 16px;
+  padding-right: 20%;
+  padding-left: 20%;
+  background-color: #999999;
+  color:black;
+  padding-bottom: 400px;
+  padding-top: 400px;
+  /* margin:0 auto, 0 auto; */
+  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
+}
+
+.tabbed {
+  padding: 0px;
+}
+
+.re {
+  padding: 5px;
+}
+
+p {
+  color:#5e5e5e;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.experience {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .todo {
+    margin-top: -25px;
+    padding-top: 0px;
+    background-color: #fAfAfA;
+  }
+  .bienv {
+    font-size: 30px;
+    color: rgba(219, 219, 219, 0.933);
+  }
+  .bienv2 {
+    font-size: 20px;
+    color: rgba(219, 219, 219, 0.933);
+  }
+  .content {
+    margin:0 auto, 0 auto;
+    padding: 16px;
+    padding-right: 20%;
+    padding-left: 20%;
+    background-color:#424242;
+    padding-bottom: 100px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+  }
+  .saludo {
+    margin-top: 400px;
+  }
+  .saludo-p {
+    margin-top: 200px;
+  }
+
+  .marco {
+    float:right;
+    padding: 25px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    background-color: #7132FF;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                    0 3px 5px -1px rgba(0, 0, 0, 0.4)
+  }
+
+  .marco-p {
+    float:right;
+    padding: 25px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    border-radius: 100px;
+    background-color: #7132FF;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                    0 3px 5px -1px rgba(0, 0, 0, 0.4)
+  }
+
+  .foto {
+    border-radius: 6px;
+    display: block;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                    0 3px 5px -1px rgba(0, 0, 0, 0.4)
+  }
+  .portrait {
+    border-radius: 100px;
+    display: block;
+    width: 150px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                    0 3px 5px -1px rgba(0, 0, 0, 0.4)
+  }
+  .black-font {
+    color: rgba(44, 44, 44, 0.933);
+  }
+  .experience {
+    text-align: center;
+  }
+
+  .content-white {
+    margin:0 auto, 0 auto;
+    padding: 16px;
+    padding-right: 20%;
+    padding-left: 20%;
+    background-color: transparent;
+    color:black;
+    padding-bottom: 500px;
+    padding-top: 200px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+  }
+}
