@@ -30,8 +30,12 @@
   margin-left: -20px!important;
 }
 
-.iconop {
+/* .iconop {
   margin-left: -10px!important;
+} */
+
+.iconob {
+  margin-left: -16px!important;
 }
 
 .iconos {
@@ -245,6 +249,10 @@ h2 {
   }
   .experience {
     text-align: center;
+  }
+
+  .symbol {
+    margin-left: -1px;
   }
 
   .content-white {
