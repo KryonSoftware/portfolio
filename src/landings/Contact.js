@@ -28,7 +28,7 @@ function Contact() {
                 </a>
             </Tooltip>
             <Tooltip title="Let's be friends on LinkedIn!">
-                <a href="http://www.linkedin.com" className="iconoLibre-c-div">
+                <a href="www.linkedin.com/in/josempascualg" className="iconoLibre-c-div">
                     <FontAwesomeIcon icon={faLinkedin} size="4x" className="iconoLibre-c"/>
                 </a>
             </Tooltip>

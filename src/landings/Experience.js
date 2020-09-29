@@ -57,7 +57,7 @@ function Experience() {
               <h4 className="vertical-timeline-element-subtitle">Mallorca, Spain</h4>
               <p>
                 As a self-employed professional driver, I had to deliver all kind of packages and diplomatic beacons. I also had to coordinate a group of 
-                five to ten van and truck drivers who either worked for me or by a company that hired me and putted them at my disposal.
+                five to ten van and truck drivers who either worked for me or by a company that hired me and let them at my disposal.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
