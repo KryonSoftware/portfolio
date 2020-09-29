@@ -3,209 +3,108 @@ import '../styles/Main.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faStar } from '@fortawesome/free-solid-svg-icons';
-import { faTruck } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faStar, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
 function Studies() {
   return (
     <div className="todo">
       <div className="content">
-        {/* <figure className="marco" elevation="2">
-          <img src={rick} className="foto" elevation="3" alt="foto"/>
-        </figure> */}
-        <div className="saludo">
-          <h1 className="bienv">Hey, I'm Jose.</h1>
-          <h2 className="bienv2">I'm a junior fullstack developer from Mallorca, Spain. I've been working on
-          tourism-focused back-end java applications. I'm also studying ML to move forward on my career and improve my skills :)</h2>
+        <div className="experience">
+          <h1 className="bienv">My studies</h1>
+          <h2 className="bienv2">
+            Both my related and unrelated studies
+          </h2>
         </div>
       </div>
       <div className="content-white">
-      <VerticalTimeline className="jajakeloko">
+        <VerticalTimeline>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work res"
             contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(113, 50, 255)' }}
-            date="2018 - 2020"
+            date="2020"
+            dateClassName="black-font"
             iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Creative Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+              <h3 className="vertical-timeline-element-title">CS50 Itroduction to AI with Python</h3>
+              <h4 className="vertical-timeline-element-subtitle">Harvard University, edx Online</h4>
               <p className="bienv">
-                Kumo
+                Basic introduction to Machine Learning and Artificial Intelligence with Python and its libraries. A free seven weeks long 
+                course made by Harvard University through edx. 
+                <a href="https://online-learning.harvard.edu/course/cs50s-introduction-artificial-intelligence-python?delta=0" > 
+                <span role="img" aria-label="link">🔗</span> </a>
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
+            className="vertical-timeline-element--work res"
+            contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgb(113, 50, 255)' }}
+            date="2018 - 2020"
+            dateClassName="black-font"
+            iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                autónomo
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-              <p>
-                plagas
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-              <p>
-                sgel
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                rotger
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                prosegur
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                rotger
+              <h3 className="vertical-timeline-element-title">Higher Technician, Multiplatform Development</h3>
+              <h4 className="vertical-timeline-element-subtitle">CIDE, Mallorca, Spain</h4>
+              <p className="bienv">
+                Spanish dual formation, higher technician. Focused on Java software development and SQL-like databases among other technologies. Practice 
+                on a workplace during almost all the duration of the course. 
+                <a href="https://www.todofp.es/dam/jcr:7655e32d-08a3-47a7-a479-ddb6f032c63e/n-tsdesarrolloaplicacionesmultiplataformaen-pdf.pdf" > 
+                <span role="img" aria-label="link">🔗</span> </a>
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
             iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faStar} size="2x" className="iconos"/>}
             />
-          </VerticalTimeline>
+        </VerticalTimeline>
       </div>
       <div className="content-grey closetop">
-          <VerticalTimeline>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(113, 50, 255)' }}
-            date="2018 - 2020"
-            iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
-            icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
+        <VerticalTimeline>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work res symbol"
+            date="2017"
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff'}}
+            icon={<FontAwesomeIcon icon={faGraduationCap} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Creative Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-              <p className="bienv">
-                Kumo
+              <h3 className="vertical-timeline-element-title">Pest Control assistant</h3>
+              <h4 className="vertical-timeline-element-subtitle">CIFP Joan Taix, Mallorca, Spain</h4>
+              <p>
+                Course about invasive species on the Balearic Islands. I needed it in order to work for a Pest Control company as a second job during 
+                the last months of 2017 and the first ones of 2018.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
+            className="vertical-timeline-element--work res symbol"
+            date="2012 - 2014"
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff'}}
+            icon={<FontAwesomeIcon icon={faGraduationCap} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Bachelor's degree</h3>
+              <h4 className="vertical-timeline-element-subtitle">IES Politècnic (Mallorca) / Madrid, Spain</h4>
               <p>
-                autónomo
+                Unfinished bachelor's degree due to incompatibility with my time scheudle. Humanistic bachelor, focused on literature, philosophy, 
+                classical greek and latin.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
+            className="vertical-timeline-element--work res symbol"
+            date="2010 - 2012"
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faGraduationCap} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+              <h3 className="vertical-timeline-element-title">Electrical and Electronical Technician</h3>
+              <h4 className="vertical-timeline-element-subtitle">CIDE, Mallorca, Spain</h4>
               <p>
-                plagas
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-              <p>
-                sgel
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                rotger
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                prosegur
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', margin: '10px -20px -20px -20px', width: '40px', height: '40px'  }}
-            icon={<FontAwesomeIcon icon={faTruck} className="iconop"/>}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                rotger
+                Spanish technician studies on electrical systems.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
             iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faStar} size="2x" className="iconos"/>}
             />
-          </VerticalTimeline>
+        </VerticalTimeline>
       </div>
     </div>
   );

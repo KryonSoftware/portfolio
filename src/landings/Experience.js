@@ -3,8 +3,7 @@ import '../styles/Main.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faStar } from '@fortawesome/free-solid-svg-icons';
-import { faTruck, faBug } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faStar, faTruck, faBug, faShieldAlt } from '@fortawesome/free-solid-svg-icons';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 function Experience() {
@@ -33,14 +32,14 @@ function Experience() {
       <div className="content-grey closetop">
           <VerticalTimeline>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--work res"
             contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(113, 50, 255)' }}
             date="2019 - 2020"
             iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Java Junior Back-end Developer</h3>
+              <h3 className="vertical-timeline-element-title">Java Junior Back-end Developer (Kumo S.L.)</h3>
               <h4 className="vertical-timeline-element-subtitle">Mallorca, Spain</h4>
               <p className="bienv">
                 Working for Kumo Consultoría S.L. as a junior/trainee developer I could not only learn a new profession, but to improve during that one 
@@ -49,7 +48,7 @@ function Experience() {
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work symbol"
+            className="vertical-timeline-element--work res symbol"
             date="2018 - 2019"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff'}}
             icon={<FontAwesomeIcon icon={faTruck} size="2x" className="icono"/>}
@@ -62,63 +61,65 @@ function Experience() {
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work symbol"
-            date="2008 - 2010"
+            className="vertical-timeline-element--work res symbol"
+            date="2018"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBug} size="2x" className="iconob"/>}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+              <h3 className="vertical-timeline-element-title">Pest Control (Trima S.A.)</h3>
+              <h4 className="vertical-timeline-element-subtitle">Mallorca, Spain</h4>
               <p>
-                plagas
+                Before I was self-employed I got several jobs at the same time. One of them was pest control. I made a formation focused on the natural environment 
+                of the islands, paid by a company who needed pest and hygiene control workers. I worked for them for around six months, then I got the opportunity 
+                to become self-employed.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work symbol"
-            date="2008 - 2010"
+            className="vertical-timeline-element--work res symbol"
+            date="2017 - 2018"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faTruck} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+              <h3 className="vertical-timeline-element-title">Professional Driver (SGEL S.A.)</h3>
+              <h4 className="vertical-timeline-element-subtitle">Mallorca, Spain</h4>
               <p>
-                sgel
+                Professional driver. Delivery of books and magazines, both to private companies as kiosks and public schools.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work symbol"
-            date="2006 - 2008"
+            className="vertical-timeline-element--work res symbol"
+            date="2012 - 2018"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faTruck} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Professional Driver (Rotger S.A.)</h3>
+              <h4 className="vertical-timeline-element-subtitle">Mallorca, Spain</h4>
               <p>
-                rotger
+                Professional driver. Delivery of daily press, books and magazines.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work symbol"
-            date="2006 - 2008"
+            className="vertical-timeline-element--work res symbol"
+            date="2012"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<FontAwesomeIcon icon={faTruck} size="2x" className="icono"/>}
+            icon={<FontAwesomeIcon icon={faShieldAlt} size="2x" className="iconob"/>}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Information / Security Assistant (Prosegur S.A.)</h3>
+              <h4 className="vertical-timeline-element-subtitle">Mallorca, Spain</h4>
               <p>
-                prosegur
+                During the elections of the Republic of Ecuador I was hired to help manage people flow inside the consulate and in the voting center.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-            className="vertical-timeline-element--work symbol"
-            date="2006 - 2008"
+            className="vertical-timeline-element--work res symbol"
+            date="2010 - 2012"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faTruck} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Delivery Man (Rotger S.A.)</h3>
+              <h4 className="vertical-timeline-element-subtitle">Mallorca, Spain</h4>
               <p>
-                rotger
+                My function was to load and unload trucks and vans and to deliver packages to small shops.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

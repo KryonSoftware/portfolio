@@ -26,13 +26,28 @@
   color: rgba(44, 44, 44, 0.933);
 }
 
+.contact-fit {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iconoLibre-c-div {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.iconoLibre-c {
+  transition: transform 250ms;
+  color: #424242;;
+}
+
+.iconoLibre-c:hover {
+  transform: translateY(-10px);
+}
+
 .icono {
   margin-left: -20px!important;
 }
-
-/* .iconop {
-  margin-left: -10px!important;
-} */
 
 .iconob {
   margin-left: -16px!important;
@@ -48,35 +63,84 @@
   margin-left: -20px;
 }
 
+.card {
+  width:30rem;
+}
+
+.card-text {
+  padding: 0.4rem 1.9rem;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+}
+
+.card-body {
+  padding: 3rem 0 !important;
+}
+
+.container-fluid .row {
+  padding-top: 6rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
+
 .marco {
   float:right;
   padding: 25px;
   margin-bottom: 50px;
-  border-radius: 6px;
+  border-radius: 57px;
   background-color: #7132FF;
   width: 350px;
-  height: 350px;
+  height: 450px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
                   0 1px 18px 0 rgba(0, 0, 0, 0.12),
                   0 3px 5px -1px rgba(0, 0, 0, 0.4)
 }
 .marco-p {
   float:right;
-  padding: 25px;
+  padding: 15px;
   margin-bottom: 50px;
   margin-top: 0px;
   border-radius: 100px;
   background-color: #7132FF;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
                   0 1px 18px 0 rgba(0, 0, 0, 0.12),
                   0 3px 5px -1px rgba(0, 0, 0, 0.4)
 }
+
+.marco-cv {
+  padding: 50px;
+  margin-bottom: 50px;
+  margin-top: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  background-color: #7132FF;
+  width: 600px;
+  height: 800px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4)
+}
+
 .foto {
-  border-radius: 6px;
+  border-radius: 57px;
   display: block;
-  width: 450px;
+  width: 400px;
   margin-top: 20px;
   margin-left: 20px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
@@ -88,6 +152,16 @@
   border-radius: 100px;
   display: block;
   width: 150px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4);
+  background-color: #fAfAfA;
+}
+
+.cv {
+  border-radius: 100px;
+  display: block;
+  width: 720px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
                   0 1px 18px 0 rgba(0, 0, 0, 0.12),
                   0 3px 5px -1px rgba(0, 0, 0, 0.4);
@@ -106,6 +180,16 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
 }
 
+.content-marco {
+  margin:0 auto, 0 auto;
+  padding: 100px;
+  padding-right: 20%;
+  padding-left: 20%;
+  background-color:#424242;
+  padding-bottom: 300px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+}
+
 .content-white {
   margin:0 auto, 0 auto;
   padding: 16px;
@@ -113,13 +197,23 @@
   padding-left: 20%;
   background-color: transparent;
   color:black;
-  padding-bottom: 300px;
+  padding-bottom: 400px;
   padding-top: 300px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
 }
 
 .final {
   height: 200px;
+  margin-bottom: -140px;
+}
+
+.final-contact {
+  height: auto;
+  margin-bottom: -140px;
+}
+
+.final-cv {
+  height: 1550px;
   margin-bottom: -140px;
 }
 
@@ -136,8 +230,12 @@
   color:black;
   padding-bottom: 400px;
   padding-top: 400px;
-  /* margin:0 auto, 0 auto; */
   clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
+}
+
+.content-about {
+  padding-right: 0!important;
+  padding-left: 0!important;
 }
 
 .tabbed {
@@ -196,40 +294,40 @@ h2 {
     margin-top: 400px;
   }
   .saludo-p {
-    margin-top: 200px;
+    margin-top: 120px;
   }
 
   .marco {
-    float:right;
-    padding: 25px;
+    padding: 15px;
     margin-bottom: 50px;
-    border-radius: 6px;
+    border-radius: 60px;
     background-color: #7132FF;
+    margin-right:20%;
     width: 250px;
-    height: 250px;
+    height: 300px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
                     0 1px 18px 0 rgba(0, 0, 0, 0.12),
                     0 3px 5px -1px rgba(0, 0, 0, 0.4)
   }
 
   .marco-p {
-    float:right;
-    padding: 25px;
+    float:none!important;
+    padding: 15px;
     margin-bottom: 50px;
     margin-top: 0px;
     border-radius: 100px;
     background-color: #7132FF;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
                     0 1px 18px 0 rgba(0, 0, 0, 0.12),
                     0 3px 5px -1px rgba(0, 0, 0, 0.4)
   }
 
   .foto {
-    border-radius: 6px;
+    border-radius: 60px;
     display: block;
-    width: 300px;
+    width: 280px;
     margin-top: 20px;
     margin-left: 20px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
@@ -266,4 +364,69 @@ h2 {
     padding-top: 200px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
   }
+  .final {
+    height: 900px;
+  }
+  .cv {
+    border-radius: 10px;
+    display: block;
+    width: 250px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                    0 3px 5px -1px rgba(0, 0, 0, 0.4);
+    background-color: #fAfAfA;
+  }
+  .marco-cv {
+    margin-left: -60px;
+    padding: 25px;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    border-radius: 10px;
+    background-color: #7132FF;
+    width: 225px;
+    height: 300px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                    0 3px 5px -1px rgba(0, 0, 0, 0.4)
+  }
+
+  .final-cv {
+    height: 100px;
+    margin-bottom: -140px;
+  }
+
+  .final-contact {
+    height: auto;
+    margin-bottom: -140px;
+    padding-bottom: 200px!important;
+  }
+
+  .res {
+    width: 130%;
+  }
+
+  .colres {
+    width: min-content;
+  }
+
+  .card-text {
+    padding: 0.4rem 3.9rem;
+  }
+
+  .card {
+    width:21.5rem;
+  }
+
+  .contact-fit {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+  }
+
+  .iconoLibre-c-div {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+
 }

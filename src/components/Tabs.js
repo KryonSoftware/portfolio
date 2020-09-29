@@ -11,6 +11,9 @@ import '../styles/Tabs.css';
 import Hello from '../landings/Hello';
 import Experience from '../landings/Experience';
 import Studies from '../landings/Studies';
+import About from '../landings/About.js';
+import Cv from '../landings/Cv';
+import Contact from '../landings/Contact';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 function TabPanel(props) {
@@ -125,13 +128,13 @@ export default function ScrollableTabsButtonAuto() {
         <Studies />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        gg
+        <Cv />
       </TabPanel>
       <TabPanel value={value} index={4}>
-        gg
+        <About />
       </TabPanel>
       <TabPanel value={value} index={5}>
-        gg
+        <Contact />
       </TabPanel>
     </React.Fragment>
   );
