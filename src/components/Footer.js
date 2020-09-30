@@ -111,7 +111,7 @@ export default function Footer(props) {
                                 <a href="https://github.com/KryonSoftware" className="iconoLibre-div">
                                     <FontAwesomeIcon icon={faGithub} size="2x" className="iconoLibre"/>
                                 </a>
-                                <a href="www.linkedin.com/in/josempascualg" className="iconoLibre-div">
+                                <a href="https://linkedin.com/in/josempascualg" className="iconoLibre-div">
                                     <FontAwesomeIcon icon={faLinkedin} size="2x" className="iconoLibre"/>
                                 </a>
                                 <a href="https://t.me/Kryon94" className="iconoLibre-div">
