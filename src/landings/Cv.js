@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Main.css';
-import cv from '../images/JoseMiguelPascualCVPortfolio-1.jpg';
-import pdf from '../images/JoseMiguelPascualCVPortfolio.pdf';
+import cv from '../images/JoseMiguelPascualCV-page-001.jpg';
+import pdf from '../images/JoseMiguelPascualCV.pdf';
 
 function Cv() {
   return (

@@ -42,9 +42,39 @@ function Experience() {
               <h3 className="vertical-timeline-element-title">Java Junior Back-end Developer (Kumo S.L.)</h3>
               <h4 className="vertical-timeline-element-subtitle">Mallorca, Spain</h4>
               <p className="bienv">
-                Working for Kumo Consultoría S.L. as a junior/trainee developer I could not only learn a new profession, but to improve during that one 
+                Working for Kumo Consultoría S.L. as a junior developer I could not only improve my skills and learn a lot, but to improve during that one 
                 and a half year my IT knowledge. My responsabilities the last months were, among others, to develop new back-end software, mostly multi-thread 
-                bug-fixing, SQL-driven B2B complex multi-filtered searches using Hibernate with OracleSQL and HTML with 'vanilla' Javascript.
+                bug-fixing, SQL-driven B2B complex multi-filtered searches using Hibernate with OracleSQL and HTML with Javascript.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+            className="vertical-timeline-element--work res"
+            contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgb(113, 50, 255)' }}
+            date="2018 - 2019"
+            iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
+            >
+              <h3 className="vertical-timeline-element-title">Java trainee Back-end Developer (Guest Incoming S.L.)</h3>
+              <h4 className="vertical-timeline-element-subtitle">Barcelona (remote), Spain</h4>
+              <p className="bienv">
+                As a previous step for my formation on Kumo Consultoría, I began to work remotely for one of their customers, Guest Incoming, in order to get used to their system and 
+                tourism wholesale SaaS application.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+            className="vertical-timeline-element--work res"
+            contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgb(113, 50, 255)' }}
+            date="2018 - 2018"
+            iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
+            >
+              <h3 className="vertical-timeline-element-title">Trainee Developer (Europlayas S.A.)</h3>
+              <h4 className="vertical-timeline-element-subtitle">Llucmajor, Mallorca, Spain</h4>
+              <p className="bienv">
+                My first contact with software development. As soon as I began my Dual Formation, Kumo Consultoría, the company who hired me for formation, sent me to one of their long-term closest 
+                clients in order to learn and get used to their B2B platform and gain experience and formation from their IT team before my Dual Formation allowed me to work directly for Kumo.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
