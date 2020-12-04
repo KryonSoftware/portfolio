@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17c562c9fb9f87d6d83023edcef3d952",
+    "revision": "4f0c7fd85cbd3ced904f439606141063",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.7513ed2d.chunk.css"
   },
   {
-    "revision": "aea4305b3f0cd4a64bb0",
+    "revision": "bc6503d4583a10c8903e",
     "url": "/portfolio/static/css/main.659f029d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.ba92e141.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aea4305b3f0cd4a64bb0",
-    "url": "/portfolio/static/js/main.9fbe03b7.chunk.js"
+    "revision": "bc6503d4583a10c8903e",
+    "url": "/portfolio/static/js/main.d4c3b452.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Huargo.74ecf9b3.jpg"
   },
   {
-    "revision": "ff4796bd318f49d4e1ac5561e60e7a2c",
-    "url": "/portfolio/static/media/JoseMiguelPascualCV-page-001.ff4796bd.jpg"
+    "revision": "ab063a2223cfafbba7c475712b630deb",
+    "url": "/portfolio/static/media/JoseMiguelPascualCV-page-001.ab063a22.jpg"
   },
   {
-    "revision": "7c20b0e40b52112cde38441ebadf43b3",
-    "url": "/portfolio/static/media/JoseMiguelPascualCV.7c20b0e4.pdf"
+    "revision": "84d38549d4dbbfb028f799807824698a",
+    "url": "/portfolio/static/media/JoseMiguelPascualCV.84d38549.pdf"
   },
   {
     "revision": "2bb96e677250c2d7599c36c89cb29456",
