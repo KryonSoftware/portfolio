@@ -18,7 +18,7 @@ function Contact() {
       <div className="content-white final-contact">
         <div className="contact-fit">
             <Tooltip title="Mail me!">
-                <a href="mailto:jomipagu94@gmail.com" className="iconoLibre-c-div">
+                <a href="mailto:pascual.jose@protonmail.com" className="iconoLibre-c-div">
                     <FontAwesomeIcon icon={faEnvelope} size="4x" className="iconoLibre-c"/>
                 </a>
             </Tooltip>

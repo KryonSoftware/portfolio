@@ -15,7 +15,7 @@ function About() {
         <div className="experience">
           <h1 className="bienv">About me!</h1>
           <h2 className="bienv2">I'm passionate about learning new things! I love deep talks with my friends sharing a drink, motorcycles, videogames, 
-          to learn about philosophy, history and economics and I'm passionate about tabletop games, Dungeons and Dragons and wargames :)</h2>
+          to learn about philosophy, history and economics and I'm a bit nerdy about tabletop games, Dungeons and Dragons and wargames :)</h2>
           <h2 className="bienv2">Yeah, I know, I may be a walking software developer cliché...</h2>
         </div>
       </div>
@@ -46,8 +46,8 @@ function About() {
                             <h4 className="card-title">My episode IV stormtrooper armour!</h4>
                             <p className="card-text text-secondary">
                                 Back in Spain I used to volunteer with a local Science-Fiction association and with Disney's 501st Legion 
-                                to not only make SyFy culture known better for the general public, but to help fundraising money and toys to 
-                                give away to hospitalized children while we visited them and made their stays in hospital much more easy :)
+                                to not only make Sci-Fi culture known better for the general public, but to help fundraising money and toys to 
+                                give away to hospitalized children while we visited them and made their stays in hospital much easier :)
                             </p>
                         </div>
                     </div>
@@ -60,8 +60,7 @@ function About() {
                         <div className="card-body text-dark">
                             <h4 className="card-title">Victoria, My Yamaha MT-10</h4>
                             <p className="card-text text-secondary">
-                                Yeah, I'm the kind of guy who gives names to his motorcycles. I was in love with my bike, but I had to sell it in order to move 
-                                to Hamburg. I miss it, but I'm already looking forward to buy a new one :S
+                                Yeah, I'm the kind of guy who gives names to his motorcycles. I am in love with my bike :S
                             </p>
                         </div>
                     </div>
@@ -92,7 +91,7 @@ function About() {
                             <h4 className="card-title">Dungeons and Dragons</h4>
                             <p className="card-text text-secondary">
                                 I've been playing almost weekly for the past years with some friends and I think it's a great way to improve one's personality 
-                                and way of thinking... and it's cool to slay dragons.
+                                and way of thinking... and it's always cool to slay dragons.
                             </p>
                         </div>
                     </div>

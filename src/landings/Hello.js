@@ -13,8 +13,8 @@ function Home() {
         <div className="saludo">
           <h1 className="bienv">Hey, I'm Jose.</h1>
           <h2 className="bienv2">I'm a junior fullstack developer from Mallorca, Spain. After years of hard work on different areas, mainly transportation, 
-          I made a 180º turn on my life by studying a superior technician degree on software development. I've been working on
-          tourism-focused back-end java applications since then. I'm also studying ML to move forward on my career and improve my skills :)</h2>
+          I made a 180º turn on my life by studying a Spanish Dual Studium degree on software development. I've been working on
+          tourism-focused and market research back-end java applications since then. I'm also studying ML and german to move forward on my career and improve my skills :)</h2>
         </div>
       </div>
       <div className="content-white final">
