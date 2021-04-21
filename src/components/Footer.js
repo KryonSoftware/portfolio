@@ -118,7 +118,6 @@ export default function Footer(props) {
                                     <FontAwesomeIcon icon={faTelegramPlane} size="2x" className="iconoLibre"/>
                                 </a>
                             </div>
-                            {/* </div> */}
                         </div>
                     </div>
                 </div>
