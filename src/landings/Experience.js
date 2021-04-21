@@ -35,11 +35,11 @@ function Experience() {
             className="vertical-timeline-element--work res"
             contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(113, 50, 255)' }}
-            date="2020 - 2020"
+            date="2021"
             iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Junior Baackend Developer (Statista GmbH)</h3>
+              <h3 className="vertical-timeline-element-title">Junior Backend Developer (Statista GmbH)</h3>
               <h4 className="vertical-timeline-element-subtitle">Hamburg, Germany</h4>
               <p className="bienv">
               Core features backend java development. Member of selected, international agile team in charge of creation and maintenance of API/Endpoints, 
