@@ -105,7 +105,7 @@ export default function Footer(props) {
                         <div className="adios">
                             <div><h2>Social</h2></div>
                             <div>
-                                <a href="mailto:jomipagu94@gmail.com" className="iconoLibre-div">
+                                <a href="mailto:pascual.jose@protonmail.com" className="iconoLibre-div">
                                     <FontAwesomeIcon icon={faEnvelope} size="2x" className="iconoLibre"/>
                                 </a>
                                 <a href="https://github.com/KryonSoftware" className="iconoLibre-div">

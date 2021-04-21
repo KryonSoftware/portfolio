@@ -18,6 +18,23 @@ function Studies() {
       </div>
       <div className="content-white">
         <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work res"
+            contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgb(113, 50, 255)' }}
+            date="2020"
+            dateClassName="black-font"
+            iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
+            >
+              <h3 className="vertical-timeline-element-title">Data Structures + Algorithms</h3>
+              <h4 className="vertical-timeline-element-subtitle">Udemy</h4>
+              <p className="bienv">
+                Coding interview bootcamp. Data structures and algorithms exercises and theory to improve skills.
+                <a href="https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/" > 
+                <span role="img" aria-label="link">🔗</span> </a>
+              </p>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
             className="vertical-timeline-element--work res"
             contentStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
@@ -45,7 +62,7 @@ function Studies() {
             iconStyle={{ background: 'rgb(113, 50, 255)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faCode} size="2x" className="icono"/>}
             >
-              <h3 className="vertical-timeline-element-title">Higher Technician, Multiplatform Development</h3>
+              <h3 className="vertical-timeline-element-title">Spanish Dual Studium, Multiplatform Development</h3>
               <h4 className="vertical-timeline-element-subtitle">CIDE, Mallorca, Spain</h4>
               <p className="bienv">
                 Spanish dual formation, higher technician. Focused on Java software development and SQL-like databases among other technologies. Practice 
