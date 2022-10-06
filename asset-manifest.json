@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.659f029d.chunk.css",
-    "main.js": "/portfolio/static/js/main.d32d6b15.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d32d6b15.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a7396d72.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a7396d72.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.7513ed2d.chunk.css": "/portfolio/static/css/2.7513ed2d.chunk.css",
-    "static/js/2.08f54bbf.chunk.js": "/portfolio/static/js/2.08f54bbf.chunk.js",
-    "static/js/2.08f54bbf.chunk.js.map": "/portfolio/static/js/2.08f54bbf.chunk.js.map",
+    "static/js/2.b191fb21.chunk.js": "/portfolio/static/js/2.b191fb21.chunk.js",
+    "static/js/2.b191fb21.chunk.js.map": "/portfolio/static/js/2.b191fb21.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2c52305d21154c9dc14a453318b5a2ca.js": "/portfolio/precache-manifest.2c52305d21154c9dc14a453318b5a2ca.js",
+    "precache-manifest.73254da508d0c13d9ef4ed1b6de68399.js": "/portfolio/precache-manifest.73254da508d0c13d9ef4ed1b6de68399.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.7513ed2d.chunk.css.map": "/portfolio/static/css/2.7513ed2d.chunk.css.map",
     "static/css/main.659f029d.chunk.css.map": "/portfolio/static/css/main.659f029d.chunk.css.map",
-    "static/js/2.08f54bbf.chunk.js.LICENSE.txt": "/portfolio/static/js/2.08f54bbf.chunk.js.LICENSE.txt",
+    "static/js/2.b191fb21.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b191fb21.chunk.js.LICENSE.txt",
     "static/media/Huargo.jpg": "/portfolio/static/media/Huargo.74ecf9b3.jpg",
-    "static/media/JosePascualCV-1.jpg": "/portfolio/static/media/JosePascualCV-1.3ecb6900.jpg",
-    "static/media/JosePascualCV.pdf": "/portfolio/static/media/JosePascualCV.7a05562d.pdf",
+    "static/media/JosePascualCV-1.jpg": "/portfolio/static/media/JosePascualCV-1.c2b17087.jpg",
+    "static/media/JosePascualCV.pdf": "/portfolio/static/media/JosePascualCV.f35b0f87.pdf",
     "static/media/fotocvprov.png": "/portfolio/static/media/fotocvprov.2bb96e67.png",
     "static/media/kumo.jpg": "/portfolio/static/media/kumo.79d4a75e.jpg",
     "static/media/lenin.jpg": "/portfolio/static/media/lenin.7d282ebd.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.7513ed2d.chunk.css",
-    "static/js/2.08f54bbf.chunk.js",
+    "static/js/2.b191fb21.chunk.js",
     "static/css/main.659f029d.chunk.css",
-    "static/js/main.d32d6b15.chunk.js"
+    "static/js/main.a7396d72.chunk.js"
   ]
 }
